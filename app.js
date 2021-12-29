@@ -181,3 +181,42 @@ function carousel(){
         content.innerHTML="Erken Rezervasyon <br> Festivali 6";
     })
 }
+function hotelHover(){
+    const navbar = document.querySelector(".navbar-hover");
+    const navbarHotels = document.querySelector(".hotels-hover");
+    const navbarTours = document.querySelector(".tours-hover");
+
+    navbar.style.display ="block";
+    navbar.style.marginLeft ="222px";
+    navbarHotels.style.display ="grid";
+    navbarTours.style.display = "none";
+}
+function tourHover(){
+    const navbar = document.querySelector(".navbar-hover");
+    const navbarTours = document.querySelector(".tours-hover");
+    const navbarHotels = document.querySelector(".hotels-hover");
+
+    navbar.style.display ="block";
+    navbar.style.marginLeft ="500px";
+    navbarTours.style.display ="grid";
+    navbarHotels.style.display ="none";
+}
+function closeHotelHover(){
+
+    const navbar = document.querySelector(".navbar-hover");
+    const navbarHotels = document.querySelector(".hotels-hover");
+
+    navbar.style.display ="none";
+    navbarHotels.style.display ="none";
+
+}
+function closeTourHover(){
+
+    const navbar = document.querySelector(".navbar-hover");
+    const navbarTours = document.querySelector(".tours-hover");
+
+    navbar.style.display ="none";
+    navbarTours.style.display ="none";
+
+}
+
