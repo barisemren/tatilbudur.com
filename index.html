@@ -21,8 +21,12 @@
                 </div>
                 <div class="dropdown-menus">
                     <ul>
-                        <li style="padding-right: 40px;">Otel  &nbsp;<img src="./assets/dropdown.png" alt="dropdown"></li>
-                        <li style="padding-right: 40px;">Tur &nbsp;<img src="./assets/dropdown.png" alt="dropdown"></li>
+                        <li onmouseover="hotelHover()" style="padding-right: 40px;">
+                            Otel  &nbsp;<img src="./assets/dropdown.png" alt="dropdown">
+                        </li>
+                        <li onmouseover="tourHover()" style="padding-right: 40px;">
+                            Tur &nbsp;<img src="./assets/dropdown.png" alt="dropdown">
+                        </li>
                         <li style="padding-right: 40px;">Kampanyalar &nbsp;<img src="./assets/dropdown.png" alt="dropdown"></li>
                     </ul>
                 </div>
@@ -33,7 +37,49 @@
             </div>
         </div>
         <!--MEGA MENU END-->
-
+        <div class="navbar-hover">
+            <div class="hotels-hover"onmouseover="hotelHover()" onmouseleave="closeHotelHover()">
+                <ul class="hover-hotel-types">
+                    <li><img src="./mobile-assets/mobilemenuhotels1.png" alt="">&nbsp; &nbsp; Yurt İçi Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels2.png" alt="">&nbsp; &nbsp; Termal Oteller</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels3.png" alt="">&nbsp; &nbsp; Kıbrıs Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels4.png" alt="">&nbsp; &nbsp; Şehir Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels5.png" alt="">&nbsp; &nbsp; Kayak Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels6.png" alt="">&nbsp; &nbsp; Hafta Sonu Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels7.png" alt="">&nbsp; &nbsp; Otel Temaları</li>
+                </ul>
+                <div class="hover-hotel-list">
+                    <span>Antalya Oteller</span> <br> <span>Bodrum Otelleri</span> <br> <span>Alanya Otelleri</span> <br>
+                    <span>Marmaris Otelleri</span> <br> <span>Didim Otelleri</span> <br> <span>Fethiye Otelleri</span> <br> 
+                    <span>Çeşme Otelleri</span> <br> <span>Ayvalık Otelleri</span> <br> <br>
+                    <span style="color:#2A5AB3; opacity: 1;">Tümünü gör</span>
+                </div>
+                <div class="hover-hotel-number">
+                    1242 Otel <br> 255 Otel <br> 445 Otel <br> 1242 Otel <br> 255 Otel <br> 445 Otel <br> 1242 Otel <br> 255 Otel
+                </div>
+                <div class="hover-hotel-images">
+                    <div class="hover-hotel-img hover-hotel-img-1">
+                        <p>Pandemi Döneminde <br> Güvenli Tatil</p>
+                    </div>
+                    <div class="hover-hotel-img hover-hotel-img-2">
+                        <p style="margin-top: 103px">Popüler Kayak Otelleri</p>
+                    </div>
+                    <div class="hover-img-bottom-content">
+                        <img src="./assets/transfer.png" alt="transfer">
+                        <span>&nbsp;&nbsp;Ulaşım & Transfer Hizmetleri</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tours-hover"onmouseover="tourHover()" onmouseleave="closeTourHover()">
+                <ul class="hover-tour-types">
+                    <li><img src="./mobile-assets/mobilemenuhotels1.png" alt="">&nbsp; &nbsp; Yurtdışı Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels2.png" alt="">&nbsp; &nbsp; Gemi Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels3.png" alt="">&nbsp; &nbsp; Kültür Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels4.png" alt="">&nbsp; &nbsp; Haftasonu Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels5.png" alt="">&nbsp; &nbsp; Mavi Turlar</li>
+                </ul>
+            </div>
+        </div>
         <!--NAV START-->
         <div>
             <div class="nav">
@@ -568,18 +614,38 @@
                 <button>Üye Olun / Giriş Yapın</button>
             </div>
             <p class="mobile-menu-line"></p>
-            <div style="display: flex;" class="mobile-menus mobile-menu-hotels">
+            <div onclick="hotelsOpen()" style="display: flex;" class="mobile-menus mobile-menu-hotels">
                 <p><img src="./assets/hotel.png" alt="hotels">&nbsp; Oteller</p>
-                <img style="margin-left:238px" src="./assets/dropdown.png" alt="dropdpwn">
+                <img style="margin-left:250px" src="./assets/dropdown.png" alt="dropdown">
+            </div>
+            <div class="mobile-menu-hotels-open" style="height:0">
+                <ul>
+                    <li><img src="./mobile-assets/mobilemenuhotels1.png" alt="">&nbsp; &nbsp; Yurt İçi Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels2.png" alt="">&nbsp; &nbsp; Termal Oteller</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels3.png" alt="">&nbsp; &nbsp; Kıbrıs Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels4.png" alt="">&nbsp; &nbsp; Şehir Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels5.png" alt="">&nbsp; &nbsp; Kayak Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels6.png" alt="">&nbsp; &nbsp; Hafta Sonu Otelleri</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels7.png" alt="">&nbsp; &nbsp; Otel Temaları</li>
+                </ul>
             </div>
             <p class="mobile-menu-line"></p>
             <div class="mobile-menus mobile-menu-flights">
                 <p><img src="./assets/flight.png" alt="flights">&nbsp; Uçuşlar</p>
             </div>
             <p class="mobile-menu-line"></p>
-            <div style="display: flex;" class="mobile-menus mobile-menu-tours">
+            <div onclick="toursOpen()" style="display: flex;" class="mobile-menus mobile-menu-tours">
                 <p><img src="./assets/tour.png" alt="tours">&nbsp; Turlar</p>
-                <img style="margin-left:238px" src="./assets/dropdown.png" alt="dropdpwn">
+                <img style="margin-left:250px" src="./assets/dropdown.png" alt="dropdown">
+            </div>
+            <div class="mobile-menu-tours-open" style="height:0">
+                <ul>
+                    <li><img src="./mobile-assets/mobilemenuhotels1.png" alt="">&nbsp; &nbsp; Yurtdışı Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels2.png" alt="">&nbsp; &nbsp; Gemi Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels3.png" alt="">&nbsp; &nbsp; Kültür Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels4.png" alt="">&nbsp; &nbsp; Haftasonu Turları</li>
+                    <li><img src="./mobile-assets/mobilemenuhotels5.png" alt="">&nbsp; &nbsp; Mavi Turlar</li>
+                </ul>
             </div>
             <p class="mobile-menu-line"></p>
             <div class="mobile-menus mobile-menu-campaigns">
