@@ -761,6 +761,102 @@
     font-size: 14px;
     margin-left: 86px;
 }
+.navbar-hover{
+    display: none;
+    position: absolute;
+    top: 77px;
+    margin-left: 222px;
+    border-radius: 13px;
+    font-family: Poppins;
+    color: #3F536C;
+    background-color: #ffff;
+    z-index: 1;
+    box-shadow: 0px 5px 36px #00000029;
+}
+.hotels-hover{
+    display: none;
+    grid-template-columns: 275px 168px 173px 278px;
+    margin: 41px 57px 23px 45px;
+}
+.hover-hotel-types{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.hover-hotel-types>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.hover-hotel-types>li>img{
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+}
+.hover-hotel-list>span{
+    line-height: 36px;
+    opacity: 0.8;
+}
+.hover-hotel-number{
+    line-height: 36px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.hover-hotel-img{
+    display: flex;
+    width: 278px;
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    background-color: rgb(63, 83, 108, 0.7);
+}
+.hover-hotel-img-1{
+    background-image: url("./assets/hoverimg1.png");
+}
+.hover-hotel-img-2{
+    background-image: url("./assets/hoverimg2.png");
+}
+.hover-hotel-img>p{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 86px;
+    margin-left: 20px;
+}
+.hover-img-bottom-content{
+    width: 278px;
+    height: 40px;
+    background-color: rgb(249, 213, 194, 0.3);
+    border: 1px solid #ED4F21;
+    border-radius: 6px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #EA5A0E;
+}
+.tours-hover{
+    display: none;
+    grid-template-columns: 200px;
+    margin: 41px 57px 23px 45px;
+}
+.hover-tour-types{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.hover-tour-types>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.hover-tour-types>li>img{
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+}
 #mobileScreen{
     display: none;
 }
