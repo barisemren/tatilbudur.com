@@ -81,3 +81,27 @@
     font-size: 16px;
     color: #3F536C;
 }
+.mobile-menu-hotels-open,.mobile-menu-tours-open{
+    background-color: rgb(207, 212, 218, 0.2);
+    border-radius: 13px;
+}
+.mobile-menu-hotels-open>ul,.mobile-menu-tours-open>ul{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 18px;
+    padding: 0;
+}
+.mobile-menu-hotels-open>ul>li,.mobile-menu-tours-open>ul>li{
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #3F536C;
+}
+.mobile-menu-hotels-open>ul>li>img,.mobile-menu-tours-open>ul>li>img{
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+}
