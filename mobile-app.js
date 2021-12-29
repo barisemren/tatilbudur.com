@@ -26,12 +26,12 @@ function hotelsOpen() {
     if(hotels.style.height == "0px"){
         hotels.style.height = "389px";
         hotels.style.transition = "height 1s"
-        hotels.style.margin= "10px 40px 20px 23px";
+        hotels.style.margin= "10px 60px 20px 23px";
     }
     else{
         hotels.style.height = "0px";
         hotels.style.transition = "height 1s, margin 1s";
-        hotels.style.margin= "0px 40px 0px 23px";
+        hotels.style.margin= "0px 60px 0px 23px";
     }
 }
 
