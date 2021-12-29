@@ -11,4 +11,4 @@ Desktop View
 ---
 Mobile View
 ---
-![Mobile View](mobilegif.gif =450x250) 
+![Mobile View](mobilegif.gif) 
