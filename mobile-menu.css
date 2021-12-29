@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.mobile-menu-line{
+    border-top: 1px solid #3F536C;
+    opacity: 0.15;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    margin-right: 40px;
+}
+.mobile-menu-open{
+    background-color: #ffff;
+    position: absolute;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: grid;
+    width: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.mobile-menu-login{
+    color: #3F536C;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.mobile-menu-login>button{
+    background-color: #2A5AB3;
+    color: #ffff;
+    font-weight: bold;
+    width: 194px;
+    height: 36px;
+    border:none;
+    border-radius: 56px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+.mobile-menus{
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #3F536C;
+}
+.mobil-menus>p{
+    display: inline-flex;
+    align-items: center;
+}
+.mobile-menu-help{
+    font-family: Poppins;
+    font-size: 12px;
+    color: #3F536C;
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+.mobile-menu-bottom{
+    display:grid;
+    grid-template-columns: 225px 150px;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #3F536C;
+    margin-left:0px;
+}
+.mobile-menu-bottom>ul{
+    width: 335px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.mobile-menu-bottom>ul>li{
+    margin-bottom: 30px;
+    margin-left:0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mobile-menu-download{
+    font-family: Poppins;
+    font-size: 16px;
+    color: #3F536C;
+}

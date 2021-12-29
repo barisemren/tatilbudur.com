@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <script src="mobile-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-menu.css">
+    <title>Desktop Tatilbudur.com</title>
+</head>
+<body>
+    <!--DESKTOP VIEW START-->
+    <div id="webScreen">
+    <!--MEGA MENU START-->
+        <div style="border-bottom: 1px solid #6F7E8F4D;">
+            <div class="header">
+                <div class="logo">
+                    <img src="./assets/logo.png" alt="logo">
+                </div>
+                <div class="dropdown-menus">
+                    <ul>
+                        <li style="padding-right: 40px;">Otel  &nbsp;<img src="./assets/dropdown.png" alt="dropdown"></li>
+                        <li style="padding-right: 40px;">Tur &nbsp;<img src="./assets/dropdown.png" alt="dropdown"></li>
+                        <li style="padding-right: 40px;">Kampanyalar &nbsp;<img src="./assets/dropdown.png" alt="dropdown"></li>
+                    </ul>
+                </div>
+                <div style="justify-content: space-between;" class="contacts">
+                    <p style="width:150px;"><img src="./assets/headphone.png" alt="">&nbsp; 0 850 333 3 33</p>
+                    <p style="width: 106px;">Giriş Yapın</p>
+                </div>
+            </div>
+        </div>
+        <!--MEGA MENU END-->
+
+        <!--NAV START-->
+        <div>
+            <div class="nav">
+                <ul class="choose-menu">
+                    <li style="padding-right: 40px;"><img src="./assets/hotel.png" alt="hotel">&nbsp; Otel Ara</li>
+                    <li style="padding-right: 40px;"><img src="./assets/flight.png" alt="flight">&nbsp; Uçuş Ara</li>
+                    <li style="padding-right: 40px;"><img src="./assets/tour.png" alt="tour">&nbsp; Tur Ara</li>
+                </ul>
+                <form class="search-area" action="">
+                    <input style="width: 400px; margin-right: 5px" type="text" placeholder="Otel, Şehir, Bölge veya Tema Adı">
+                    <input style="width: 280px; margin-right: 5px" type="text" placeholder="Konaklama Tarihi">
+                    <input style="width: 220px;" type="number" placeholder="Kişi Sayısı" min="1">
+                    <button>Otel Ara</button>
+                </form>
+            </div>
+        </div>
+        <!--NAV END-->
+
+        <!--INTRO SECTION START-->
+        <div class="slide-opps">
+            <div class="carousel">
+                <div class="carousel-transparent-background">
+                    
+                </div>
+                <div class="carousel-content">
+                    <p class=" carousel-content-upper">Erken Rezervasyon <br> Festivali</p>
+                    <button>Fırsatları Gör</button>
+                </div>
+                <div class="carousel-dots">
+                    <span onClick="carousel()" class="carousel-dot dot-1"></span>
+                    <span onClick="carousel()" class="carousel-dot dot-2"></span>
+                    <span onClick="carousel()" class="carousel-dot dot-3"></span>
+                    <span onClick="carousel()" class="carousel-dot dot-4"></span>
+                    <span onClick="carousel()" class="carousel-dot dot-5"></span>
+                    <span onClick="carousel()" class="carousel-dot dot-6"></span>
+                </div>
+            </div>
+            <div class="opps">
+                <div class="opp opp-1">
+                    <div class="opp-content">
+                        <p>Yılbaşına Özel <br> Kültür Turlarını <br> Keşfedin!</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                    <div class="opp-img opp-1-img"></div>
+                </div>
+                <div class="opp opp-2">
+                    <div class="opp-content">
+                        <p>Yılbaşına Özel <br> Kültür Turlarını <br> Keşfedin!</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                    <div class="opp-img opp-2-img"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-opps">
+            <div class="bottom-opp bottom-opp-1">
+                <div class="bottom-opp-content">
+                    <p>Şimdi Al, <b>4 Ay Sonra </b> <br> Ödemeye Başla</p>
+                </div>
+                <div class="bottom-opp-icon">
+                    <img src="./assets/calender.png" alt="delaying">
+                </div>
+            </div>
+            <div class="bottom-opp bottom-opp-2">
+                <div class="bottom-opp-content">
+                    <p>2 Gece ve Üstü Konaklamalarda <br> <b>+1 Gece Ücretsiz</b> </p>
+                </div>
+                <div class="bottom-opp-icon">
+                    <img src="./assets/calender.png" alt="freenight">
+                </div>
+            </div>
+            <div class="bottom-opp bottom-opp-3">
+                <div class="bottom-opp-content">
+                    <p>Kayak Otellerinde <br> <b>%45’e Varan</b> <br> Erken Rezervasyon Fırsatı!</p>
+                </div>
+                <div class="bottom-opp-icon">
+                    <img src="./assets/calender.png" alt="ski">
+                </div>
+            </div>
+            <p>Maximum karta özel 4 ay erteleme</p>
+        </div>
+        <!--INTRO SECTION END-->
+
+        <!--MINI-LOGIN SECTION START-->
+        <div class="mini-login">
+            <ul>
+                <li class="first-login-item" style="font-family:Poppins; opacity: 1;">Üyelere özel indirimli fiyatlar</li>
+                <li class="second-login-item" style="font-family:Poppins; opacity: 1;">Giriş yaptığınızda <u style="cursor: pointer;">daha düşük fiyatlar</u> görürsünüz!</li>
+            </ul>
+            <div class="login-button">
+                <button>Giriş Yapın</button>
+            </div>
+        </div>
+        <!--MINI-LOGIN SECTION END-->
+
+        <!--HOTELS START-->
+        <div class="hotel-section">
+            <p class="hotel-section-header">Yazın ilk fırsatlarını kaçırma!</p>
+            <div style="display: inline-flex;">
+                <ul class="hotel-types">
+                    <li style="margin-right: 29px;">Son Gezdiğiniz Oteller</li>
+                    <li style="margin-right: 29px;">En Çok Aranan Oteller</li>
+                    <li style="margin-right: 29px;">Tükenmek Üzere Olan Oteller</li>
+                </ul>
+                <p class="show-more-hotels">Daha fazla göster</p>
+            </div>
+            <div class="hotel-cards">
+                <div class="hotel-card card-1">
+                    <div class="hotel-card-img hotel-card-img-1"></div>
+                    <div class="hotel-card-content hotel-card-content-1">
+                        <p style="font-size: 16px; margin-bottom:0">Vikingen İnfinity Resort & Spa Hotel</p>
+                        <p style="font-size: 10px; opacity:0.7; margin-bottom:0">Ultra Her Şey Dahil</p>
+                        <div class="hotel-card-content-bottom">
+                            <p style="font-size: 12px; opacity:0.5; margin-top:35px">Antalya, Alanya</p>
+                            <div style="margin-top:0;margin-right: 20px;">
+                                <p style="text-align:end; margin-top:0 !important;" >
+                                    <span style="color:#115BB9; font-size: 20px; font-weight: bold;">230₺</span>
+                                    <span style="font-size: 10px; opacity:0.7;">‘den <br>başlayan fiyatlarla</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel-card card-2">
+                    <div class="hotel-card-img hotel-card-img-2"></div>
+                    <div class="hotel-card-content hotel-card-content-2">
+                        <p style="font-size: 16px; margin-bottom:0">Vikingen İnfinity Resort & Spa Hotel</p>
+                        <p style="font-size: 10px; opacity:0.7; margin-bottom:0">Ultra Her Şey Dahil</p>
+                        <div class="hotel-card-content-bottom">
+                            <p style="font-size: 12px; opacity:0.5; margin-top:35px">Antalya, Alanya</p>
+                            <div style="margin-top:0;margin-right: 20px;">
+                                <p style="text-align:end; margin-top:0 !important;" >
+                                    <span style="color:#115BB9; font-size: 20px; font-weight: bold;">230₺</span>
+                                    <span style="font-size: 10px; opacity:0.7;">‘den <br>başlayan fiyatlarla</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel-card card-3">
+                    <div class="hotel-card-img hotel-card-img-3"></div>
+                    <div class="hotel-card-content hotel-card-content-3">
+                        <p style="font-size: 16px; margin-bottom:0">Vikingen İnfinity Resort & Spa Hotel</p>
+                        <p style="font-size: 10px; opacity:0.7; margin-bottom:0">Ultra Her Şey Dahil</p>
+                        <div class="hotel-card-content-bottom">
+                            <p style="font-size: 12px; opacity:0.5; margin-top:35px">Antalya, Alanya</p>
+                            <div style="margin-top:0;margin-right: 20px;">
+                                <p style="text-align:end; margin-top:0 !important;" >
+                                    <span style="color:#115BB9; font-size: 20px; font-weight: bold;">230₺</span>
+                                    <span style="font-size: 10px; opacity:0.7;">‘den <br>başlayan fiyatlarla</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel-card card-4">
+                    <div class="hotel-card-img hotel-card-img-4"></div>
+                    <div class="hotel-card-content hotel-card-content-4">
+                        <p style="font-size: 16px; margin-bottom:0">Vikingen İnfinity Resort & Spa Hotel</p>
+                        <p style="font-size: 10px; opacity:0.7; margin-bottom:0">Ultra Her Şey Dahil</p>
+                        <div class="hotel-card-content-bottom">
+                            <p style="font-size: 12px; opacity:0.5; margin-top:35px">Antalya, Alanya</p>
+                            <div style="margin-top:0;margin-right: 20px;">
+                                <p style="text-align:end; margin-top:0 !important;" >
+                                    <span style="color:#115BB9; font-size: 20px; font-weight: bold;">230₺</span>
+                                    <span style="font-size: 10px; opacity:0.7;">‘den <br>başlayan fiyatlarla</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--HOTELS END-->
+
+        <!--TOURS START-->
+        <div class="tour-section">
+            <p class="tour-section-header">Her Zevke Uygun Turları Keşfet</p>
+            <div>
+                <ul class="tour-types">
+                    <li style="margin-right: 29px;">Yurt dışı Turları</li>
+                    <li style="margin-right: 29px;">Gemi Turları</li>
+                    <li style="margin-right: 29px;">Kültür Turları</li>
+                    <li style="margin-right: 29px;">Haftasonu Turları</li>
+                    <li style="margin-right: 29px;">Mavi Turlar</li>
+                </ul>
+            </div>
+            <div class="tour-carousel">
+                <div class="tour-carousel-img">
+                    <div class="tour-carousel-img-left">
+                        <p style="font-size:24px; font-weight:bold;">Roma’yı Keşfetme Mevsimi</p>
+                        <p>
+                            Haydi, siz de Tatilbudur’un uygun fiyatlı yurt dışı <br> turlarını incelemeye başlayın, 
+                            yurt dışında daha <br> fazla yeni yerler keşfetmenin keyfine varın!
+                        </p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                    <div class="tour-carousel-img-right">
+                        <p style="position:relative; float: right; margin-top:25px; margin-right:27px">
+                            200€’dan <br> başlayan <br> fiyatlarla
+                        </p>
+                    </div>
+                </div>
+                <div class="tour-carousel-sliders">
+                    <div style="margin-top:0;" class="tour-carousel-slider tour-carousel-slider-arrows">
+                        <img src="./assets/back-arrow.png" alt="">
+                    </div>
+                    <div class="tour-carousel-slider tour-carousel-slider-1">
+                        <img src="./assets/slider1.png" alt="">
+                        <p>Ülkelere Göre <br> Turlar</p>
+                    </div>
+                    <div class="tour-carousel-slider tour-carousel-slider-2">
+                        <img src="./assets/slider2.png" alt="">
+                        <p>2022 Erken <br> Rezervasyon Turları</p>
+                    </div>
+                    <div class="tour-carousel-slider tour-carousel-slider-3">
+                        <img src="./assets/slider3.png" alt="">
+                        <p>Amerika Turları</p>
+                    </div>
+                    <div class="tour-carousel-slider tour-carousel-slider-4">
+                        <img src="./assets/slider4.png" alt="">
+                        <p>Balayı Turları</p>
+                    </div>
+                    <div style="margin-top:0;" class="tour-carousel-slider tour-carousel-slider-arrows">
+                        <img src="./assets/forward-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--TOURS END-->
+
+        <!--SUGGESTIONS START-->
+        <div class="suggestion-section">
+            <p class="suggestion-section-header-1">Kararsız mı Kaldınız?</p>
+            <p class="suggestion-section-header-2">Nasıl bir Tatil istediğinize karar veremediyseniz size önerdiğimiz tatil temalarını inceleyin!</p>
+            <div class="suggestion-cards">
+                <div class="suggestion-card suggestion-card-1">
+                    <p>Kayak Otelleri <br> <span style="font-size:12px; font-weight:normal">2243</span></p>
+                </div>
+                <div class="suggestion-card suggestion-card-2">
+                    <p>Termal Oteller <br> <span style="font-size:12px; font-weight:normal">2243</span></p>
+                </div>
+                <div class="suggestion-card suggestion-card-3">
+                    <p>Yetişkin Otelleri <br> <span style="font-size:12px; font-weight:normal">2243</span></p>
+                </div>
+                <div class="suggestion-card suggestion-card-4">
+                    <p>Çocuk Dostu Oteller <br> <span style="font-size:12px; font-weight:normal">2243</span></p>
+                </div>
+                <div class="suggestion-card suggestion-card-5">
+                    <p>Denize Sıfır Oteller <br> <span style="font-size:12px; font-weight:normal">2243</span></p>
+                </div>
+                <div class="suggestion-card-6">
+                    <p style="margin-top:50px; margin-bottom:0">&#8608;</p>
+                    <p style="font-size: 14px;">Tümünü Gör</p>
+                </div>
+            </div>
+        </div>
+        <!--SUGGESTIONS END-->
+
+        <!--EMAIL SECTION START-->
+        <div class="email-section">
+            <div  class="email-section-img">
+                <img src="./assets/model.png" alt="model">
+            </div>
+            <div class="email-section-content">
+                <p class="email-section-header">Üyelere özel indirimlere ve harika fiyatlara erişim sağlayın</p>
+                <form class="email-part" action="">
+                    <input type="email">
+                    <button>Gönder</button>
+                </form>
+                <div class="checkbox-part">
+                    <input type="checkbox" name="mail-checkbox" id="mail-checkbox" checked="checked">
+                    <label for="mail-checkbox"><b>%50’ye varan</b> Fırsat ve Kampanyalardan <br> &nbsp; &nbsp; &nbsp; &nbsp; haberdar olmak istiyorum</label>
+                </div>
+            </div>
+        </div>
+        <!--EMAIL SECTION END-->
+
+        <!--DOWNLOAD SECTION START-->
+        <div class="download-section">
+            <div class="left-download-section">
+                <p class="download-section-header">TatilBudur uygulamasını indirin, aklınızdaki tatili hemen planlayın!</p>
+                <ul class="download-cards">
+                    <li style="margin-right: 7px;" class="download-card-1"><img src="./assets/appstore.png" alt=""></li>
+                    <li style="margin-right: 7px;" class="download-card-1"><img src="./assets/googleplay.png" alt=""></li>
+                    <li style="margin-right: 7px;" class="download-card-1"><img src="./assets/huawei.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="right-download-section">
+                <div class="qr-code">
+                    <img src="./assets/qr.png" alt="qrcode">
+                    <p>İndirmek için <br> QR Kodu Tarayın</p>
+                </div>
+                <div class="mobile-app">
+                    <img src="./assets/app.png" alt="application">
+                </div>
+            </div>
+        </div>
+        <!--DOWNLOAD SECTION END-->
+
+        <!--SPONSORSHIP SECTION START-->
+        <div class="sponsorship-section">
+            <p></p>   <!--EMPTY TAG-->
+            <div class="sponsor sponsor-1">
+                <div class="sponsor-img-1">
+                    <img src="./assets/milligurur.png" alt="milligurur">
+                </div>
+                <div class="sponsor-content-1">
+                    <p class="sponsor-1-header">#milligururbudur</p>
+                    <p class="sponsor-1-intro">Tatilbudur.com <br> Basketbol Milli Takımlar <br> ANA SPONSORU</p>
+                </div>
+            </div>
+            <div class="sponsor sponsor-2">
+                <div class="sponsor-img-2">
+                    <img src="./assets/iş.png" alt="isbankasi">
+                </div>
+                <div class="sponsor-content-2">
+                    <p class="sponsor-2-intro">Tatilbudur.com bir <br> 
+                        <img style="height:36px; width:184px;" src="./assets/işgirişim.png" alt="isgirisim">
+                        <br> ortaklığıdır.
+                    </p>
+                </div>
+            </div>
+            <p></p>   <!--EMPTY TAG-->
+        </div>
+        <!--SPONSORSHIP SECTION END-->
+
+        <!--BOTTOM CONTENT START-->
+        <div class="bottom-content">
+            <div class="bottom-content-1">
+                <div class="bottom-content-header">Daha Fazla Tatil, TatilBudur!</div>
+                <div class="bottom-content-content">
+                    1997 yılından bu yana binlerce kişiye otel, tur,
+                    uçak ve organizasyon hizmetleri sunan markamız, her geçen gün daha da büyüyerek
+                    hayalinizdeki tatili uygun fiyatlarla gerçeğe çevirme fırsatı sunuyor.
+                </div>
+            </div>
+            <div class="bottom-content-2">
+                <div class="bottom-content-header">En Uygun Tatil Fırsatları</div>
+                <div class="bottom-content-content">
+                    Tatilbudur.com ile unutulmaz bir tatil deneyimine hazır mısınız? Hem yurt içinde 
+                    hem de yurt dışında birbirinden farklı konaklama seçenekleri ve zengin içerikli turlarıyla 
+                    bütçenizi sarsmayacak tatil fırsatlarını sizlerle buluşturan acentemiz,
+                    otel ve tur hizmetleriyle kaliteli hizmetin yeni adresi olma yolunda ilerliyor.
+                </div>
+            </div>
+            <div class="bottom-content-3">
+                <div class="bottom-content-header">Tatil Fiyatları</div>
+                <div class="fadeout-content">
+                    <div class="bottom-content-content" style="background-color: white;">
+                        <span id="first-content-1" class="first-content-1">
+                        <p>Tatilbudur.com’da birçok farklı ve değişik uygun fiyatlı tatil önerileri 
+                        sizler için bir araya geliyor. Yapacağınız tek şey hayal ettiğiniz tatili seçmek. 
+                        Yüzlerce farklı lokasyonda her zaman istediğiniz tatile uygun fiyat garantisiyle çıkabilir, 
+                        seyahat planınızı sorunsuzca planlayabilirsiniz.</p></span><span class="dot-1">.</span> 
+                        <span class="more-content-1">Size en uygun tatil seçeneklerini 
+                        inceleyerek dilediğiniz tatile bir adım daha yaklaşabilirsiniz. Uygun fiyatlı otel ve tur
+                        seçenekleriyle tatil severlerin en çok tercih ettiği online seyahat acentelerinden birisi
+                        olan web sitemizde çok sayıda tatil fırsatı bulabilirsiniz. Dilerseniz muhteşem bir balayı 
+                        tatili yapın veya kültür turlarıyla bilgi hazinenize yeni yerler ekleyin. Dilerseniz de farklı 
+                        ülkeleri keşfedin. Size en uygun avantajlı tatil fırsatlarını web sitemizde bulabilir, peşin 
+                        fiyatına taksit imkanlarından yararlanabilirsiniz.</span>
+                    </div>
+                    <button onClick="firstShowHide()" class="show-btn-1">Devamını Oku</button>
+                </div>
+            </div>
+            <div class="bottom-content-4">
+                <div class="bottom-content-header">Türkiye’de En Güzel Tatil Yerleri</div>
+                <div class="fadeout-content">
+                    <div class="bottom-content-content" style="background-color: white;">
+                        <span id="first-content-2" class="first-content-2">
+                        <p>Herkesin en sevdiği rotalardan birisi olan Ege ve Akdeniz bölgesinde birçok farklı 
+                        içeriklere sahip tur düzenleniyor. Likya Turları, Karya Turları, Kuzey Ege Turları, Salda 
+                        ve Göller Yöresi Turları, Ege-Akdeniz Turları ve Karadeniz Turlarıyla çok sayıda yeni lokasyonu 
+                        keşfedebilirsiniz.</p></span><span class="dot-2">.</span> 
+                        <span class="more-content-2">Karadeniz Turlarıyla; Ordu’yu, Trabzon’u, Rize’yi, Artvin’i ve 
+                        Batum’u ziyaret edebilirsiniz. Üstelik Gap ve Doğu Anadolu turları diğer kültür turları kadar 
+                        ilgi görüyor. Kültür, gastronomi ve tarihi birikime doyacağınız Gap turlarını da inceleyebilirsiniz. 
+                        Talebe göre sıklıkla düzenlenen tatil turları, birbirinden zengin içerikleriyle sizleri bekliyor. 
+                        Tatilbudur.com’un sömestir, yılbaşı, 23 Nisan, 19 Mayıs, Ramazan Bayramı, Şeker Bayramı gibi özel 
+                        günlerde mevcut olan kültür turlarına daha uygun fiyatlarla rezervasyon yaptırabilir ve taksit 
+                        imkanlarından faydalanabilirsiniz. Web sitemizde aynı zamanda günübirlik ve hafta sonu turları da 
+                        bulunuyor. Hızlı geçen haftanın sonunda keyifli bir mola verip, farklı ve eğlenceli hafta sonu geçirebilirsiniz.</span>
+                    </div>
+                    <button onClick="secondShowHide()" class="show-btn-2">Devamını Oku</button>
+                </div>
+            </div>
+            <div class="bottom-content-5">
+                <div class="bottom-content-header">Türkiye’de En Güzel Tatil Yerleri</div>
+                <div class="fadeout-content">
+                    <div class="bottom-content-content" style="background-color: white;">
+                        <span id="first-content-3" class="first-content-3">
+                        <p>Eğer tatilinizi yurt dışında geçirmeye karar verdiyseniz Tatilbudur.com’un geniş içeriğe sahip 
+                        tur ve gezi programları, vize işlemleri, transfer imkanı, vizesiz ve uygun fiyatlı yurt dışı 
+                        tur seçenekleri, kalıpların dışına çıkmış farklı tatil rotaları, otobüsle veya uçakla ulaşım 
+                        olanakları,</p></span><span class="dot-3">.</span> 
+                        <span class="more-content-3">profesyonel rehberleri ve daha fazla ayrıcalıkla muhteşem bir yurt 
+                        dışı tatili yapabilirsiniz. Dünyanın en güzel rotalarını keşfetme planlarınız varsa Asya kıtasından 
+                        Avrupa kıtasına kadar uzanan yurt dışı tur seçenekleriyle benzersiz maceralara siz de atılabilirsiniz.</span>
+                    </div>
+                    <button onClick="thirdShowHide()" class="show-btn-3">Devamını Oku</button>
+                </div>
+            </div>
+        </div>
+        <!--BOTTOM CONTENT END-->
+
+        <!--BOTTOM LINKS START-->
+        <div class="bottom-links">
+            <div class="logo-part">
+                <img style="width:150px; height:16px; margin-top:10px;" src="./assets/footer-logo.png" alt="">
+                <p style="font-family: Poppins; font-size:22px; width:376px; height:62px; margin-left:49px; margin-top:0px">
+                    <span style="color:#2A5AB3">#daha</span><span style="color:#709CEF">fazla</span><span style="color:#FF7F15">tatil</span>
+                </p>
+            </div>
+            <div class="links-part">
+                <div class="search-links">
+                    <ul>
+                        <li><img src="./assets/hotel.png" alt="hotel">&nbsp; Otel Ara</li>
+                        <li><img src="./assets/flight.png" alt="flight">&nbsp; Uçuş Ara</li>
+                        <li><img src="./assets/tour.png" alt="tour">&nbsp; Tur Ara</li>
+                        <li><img src="./assets/kampanyalar.png" alt="campaign">&nbsp; Kampanyalar</li>
+                    </ul>
+                </div>
+                <div class="category-links">
+                    <p style="font-size:14px; font-family:Poppins; color: #3F536C;">Öne Çıkan Kategoriler</p>
+                    <div>
+                        <p class="link-lists" style="margin-right: 50px;">
+                            Erken Rezervasyon <br> Termal Oteller <br> Kıbrıs Otelleri <br>
+                            Kış Otelleri <br> 1+1 Gece Otelleri <br> Yılbaşı otelleri <br> Hafta sonu otelleri
+                        </p>
+                        <p class="link-lists" style="margin-right: 50px;">
+                            İzmir otelleri <br> Kıbrıs otelleri <br> İstanbul otelleri <br> Ankara otelleri <br>
+                            Termal oteller <br> Yurtdışı oteller <br> Yurt dışı oteller
+                        </p>
+                        <p class="link-lists">
+                            Yurtdışı turları <br> Yurt dışı turları <br> Kayak otelleri <br> Haftasonu turları
+                        </p>
+                    </div>
+                </div>
+                <div class="reservation-links">
+                    <p style="margin-bottom:25px; font-size:14px; font-family:Poppins; color: #3F536C;">Rezervasyon</p>
+                    <div>
+                        <p class="link-lists">
+                            Rezervasyon Kontrol <br> Nasıl Rezervasyon Yapılır? <br> Grup Rezervasyon Talebi
+                        </p>
+                    </div>
+                </div>
+                <div class="tatilbudur-links">
+                    <p style="margin-bottom:25px; font-size:14px; font-family:Poppins; color: #3F536C;">TatilBudur</p>
+                    <div>
+                        <p class="link-lists">
+                            Hakkımızda <br> İletişim <br> İnsan Kaynakları <br> Müşteri İlişkileri <br>
+                            Şubelerimiz <br> Şube Başvuru Formu <br> Banka Hesaplarımız <br> Kütahya Çizelgesi <br>
+                            Sıkça Sorulan Sorular
+                        </p>
+                    </div>
+                </div>
+                <div class="qrcode-links">
+                    <img src="./assets/etbis.png" alt="etbisqrcode">
+                </div>
+            </div>
+            <div style="margin-top:34px; display: inline-flex;" class="contacts-part">
+                <ul>
+                    <li style="font-family: Poppins; font-size:16px; color:#3F536C; font-weight: bold; height: 23px;">Bizi Takip Edin</li>
+                    <li style="height:20px;"><img src="./assets/sm.png" alt="socialmedia"></li>
+                    <li style="display: inline-flex;font-family: Poppins; font-size:14px; color:#3F536C; height:20px; width: 190px;">
+                        <img style="height:19px;" src="./assets/blog.png" alt="blog"> <span>&nbsp;blog.tatilbudur.com</span>
+                    </li>
+                    <li style="display: inline-flex;font-family: Poppins; font-size:16px; color:#3F536C; font-weight: bold; height:23px;">
+                        <span>Çağrı Merkezi &nbsp; </span><img style="height:19px;" src="./assets/cagrimerkezi.png" alt="callcenter">
+                    </li>
+                    <p style="width:0px; height:95px; border:1px solid #6F7E8F; opacity: 0.3;"></p>
+                </ul>
+                <div>
+                    <p style="margin-top:25px; margin-left:24px;">
+                    <span style="font-family: Poppins; font-size:12px; color:#3F536C">Bizi Arayın</span><br>
+                    <span style="font-family: Poppins; font-size:20px; color:#3F536C">0 850 333 3 333</span><br>
+                    <span style="font-family: Poppins; font-size:12px; color:#3F536C; opacity: .5;">VEYA</span><br>
+                    <span style="font-family: Poppins; font-size:16px; color:#3F536C">Biz sizi arayalım</span>
+                    </p>
+                </div>
+                <div class="callcenter-img">
+                    <img src="./assets/cagrimerkezi-model.png" alt="callcentermodel">
+                </div>
+            </div>
+            <div style="font-family: Poppins; font-size:12px; color:#3F536C; 
+            opacity: .54; letter-spacing:-0.3px; margin-left: 60px;">
+                <p>Afişe edilen tüm fiyatlar, ilgili üründe kontenjan olması durumunda geçerli olup seçeceğiniz döneme göre fiyatlar değişkenlik gösterebilir.</p>
+            </div>
+        </div>
+        <!--BOTTOM LINKS END-->
+
+        <!--FOOTER START-->
+        <div class="footer" style="margin-top:13px">
+            <div class="footer-links" style="display: inline-flex;">
+                <p>Sözleşmeler & KVKK</p>
+                <ul>
+                    <li style="margin-right: 22px ;">Kullanıcı Sözleşmesi</li>
+                    <li style="margin-right: 22px ;">Gizlilik Sözleşmesi</li>
+                    <li style="margin-right: 22px ;">Tur/Otel Satış Sözleşmesi</li>
+                    <li style="margin-right: 22px ;">Kişisel Verilerin Korunması</li>
+                </ul>
+            </div>
+            <hr style="color: #CFD4DA; height:1px; opacity: 0.5; margin:0px 86px 0px 86px;">
+            <div class="footer-cards">
+                <div class="left-footer-cards">
+                    <p style="margin-right:22px" >Hissedarlarımız</p>
+                    <img style="height:22px; width:133px;" src="./assets/işgirişim.png" alt="shareholders">
+                </div>
+                <div class="right-footer-cards">
+                    <img src="./assets/logolar.png" alt="payments">
+                </div>
+            </div>
+            <hr style="color: #CFD4DA; height:1px; opacity: 0.5; margin:0px 86px 0px 86px;">
+            <p style="font-family: Poppins; font-size:10px; color:#6F7E8F; margin-left:86px; margin-top: 10px;">
+                Copyright © 1997-2021 TatilBudur.com. Tüm hakları saklıdır. TatilBudur.com bir Tatilbudur Seyahat Acenteliği ve Turizm A.Ş ürünüdür. ##122
+            </p>
+        </div>
+        <!--FOOTER END-->
+    </div>
+    <!--DESKTOP VIEW END-->
+        
+        
+    <!--MOBILE VIEW START-->
+    <div id="mobileScreen">
+        <!--MOBILE MENU START-->
+        <div class="mobile-menu-open">
+            <img onclick="menuClose()" width="18px" height="18px"  style="margin-top:20px; margin-left: 300px;" 
+            src="./mobile-assets/menucloseicon.png" alt="close">
+            <div class="mobile-menu-login">
+                <p>Giriş yaptığınızda daha düşük fiyatlar <br> görürsünüz!</p>
+                <button>Üye Olun / Giriş Yapın</button>
+            </div>
+            <p class="mobile-menu-line"></p>
+            <div style="display: flex;" class="mobile-menus mobile-menu-hotels">
+                <p><img src="./assets/hotel.png" alt="hotels">&nbsp; Oteller</p>
+                <img style="margin-left:238px" src="./assets/dropdown.png" alt="dropdpwn">
+            </div>
+            <p class="mobile-menu-line"></p>
+            <div class="mobile-menus mobile-menu-flights">
+                <p><img src="./assets/flight.png" alt="flights">&nbsp; Uçuşlar</p>
+            </div>
+            <p class="mobile-menu-line"></p>
+            <div style="display: flex;" class="mobile-menus mobile-menu-tours">
+                <p><img src="./assets/tour.png" alt="tours">&nbsp; Turlar</p>
+                <img style="margin-left:238px" src="./assets/dropdown.png" alt="dropdpwn">
+            </div>
+            <p class="mobile-menu-line"></p>
+            <div class="mobile-menus mobile-menu-campaigns">
+                <p><img src="./assets/kampanyalar.png" alt="campaigns">&nbsp; Kampanyalar</p>
+            </div>
+            <p class="mobile-menu-line"></p>
+            <p class="mobile-menu-help">YARDIM</p>
+            <div class="mobile-menu-bottom">
+                <ul>
+                    <li><img src="./mobile-assets/mobilephone.png" alt="contact">&nbsp; Müşteri İlişkileri</li>
+                    <li><img src="./mobile-assets/mobilechat.png" alt="help">&nbsp; Canlı Yardım</li>
+                    <li style="margin-bottom:10px;"><img src="./mobile-assets/mobilesss.png" alt="questions">&nbsp; Sıkça Sorulan Sorular</li>
+                </ul>
+                <p>0 850 333 3 333</p>
+            </div>
+            <p class="mobile-menu-line"></p>
+            <p class="mobile-menu-download">Uygulamayı İndirin</p>
+        </div>
+        <!--MOBILE MENU END-->
+
+        <!--MOBILE CONTENT START-->
+        <div class="mobile-view">
+
+
+        <!--MOBILE NAVBAR START-->
+        <div class="mobile-navbar">
+            <ul>
+                <li onclick="menuOpen()" style="margin-left: 23px;"><button><img src="./mobile-assets/menu.png" alt="menu"></button>
+                    <span style=" margin-left:6px;color: #3F536C; font-family: Poppins;"> Menu</span>
+                </li>
+                <li><img src="./mobile-assets/mobilelogo.png" alt=""></li>
+                <li style="margin-right: 23px;"><img src="./mobile-assets/user.png" alt=""></li>
+            </ul>
+        </div>
+        <!--MOBILE NAVBAR END-->
+
+        <!--MOBILE SEARCH START-->
+        <div class="mobile-search">
+            <div class="mobile-choose-menu">
+                <ul>
+                    <li><img src="./mobile-assets/mobilehotel.png" alt="mobilehotel">&nbsp; Otel Ara</li>
+                    <li><img src="./mobile-assets/mobileplane.png" alt="mobileplane">&nbsp; Uçuş Ara</li>
+                    <li><img src="./mobile-assets/mobiletour.png" alt="mobiletour">&nbsp; Tur Ara</li>
+                </ul>
+            </div>
+            <div class="mobile-search-area">
+                <input type="text" placeholder="Otel, Şehir, Bölge veya Tema Adı">
+                <input type="text" placeholder="Konaklama Tarihi">
+                <input type="number" placeholder="Kişi Sayısı" min="1"><br>
+                <button>Otel Ara</button>
+            </div>
+        </div>
+        <!--MOBILE SEARCH END-->
+
+        <!--MOBILE MINI HOTELS START-->
+        <div class="mobile-mini-hotels">
+            <ul>
+                <li><img class="mini-hotel-img"src="./mobile-assets/minihotel1.png" alt="minihotel1"></li>
+                <li><img class="mini-hotel-img"src="./mobile-assets/minihotel2.png" alt="minihotel2"></li>
+                <li><img class="mini-hotel-img"src="./mobile-assets/minihotel3.png" alt="minihotel3"></li>
+                <li><img class="mini-hotel-img"src="./mobile-assets/minihotel4.png" alt="minihotel4"></li>
+                <li><img class="mini-hotel-img"src="./mobile-assets/minihotel5.png" alt="minihotel5"></li>
+            </ul>
+            <ul>
+                <li class="mini-hotel">Erken Rezervasyon</li>
+                <li class="mini-hotel">Termal Oteller</li>
+                <li class="mini-hotel">Kıbrıs Otelleri</li>
+                <li class="mini-hotel">Kış Otelleri</li>
+                <li class="mini-hotel">1+1 Gece Otelleri</li>
+            </ul>
+        </div>
+        <!--MOBILE MINI HOTELS END-->
+
+        <!--MOBILE DELAYING START-->
+        <div class="mobile-delay-section">
+            <div class="delay-content">
+                <p>Şimdi Al, 4 Ay Sonra <br> Ödemeye Başla</p>
+                <p>Maximum karta özel 4 ay erteleme</p>
+            </div>
+            <div class="delay-img">
+                <div>
+                    <img src="./mobile-assets/+4.png" alt="delaying">
+                </div>
+            </div>
+        </div>
+        <!--MOBILE DELAYING END-->
+
+        <!--MOBILE CAROUSEL START-->
+        <div class="mobile-carousel">
+            <div class="slider" style="display:inline-flex;">
+                <div class="mobile-slide mobile-slide-1">
+                    <div>
+                        <p class="mobile-slide-content">Erken Rezervasyon <br> Festivali</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                </div>
+                <div class="mobile-slide mobile-slide-2">
+                    <div>
+                        <p class="mobile-slide-content">Erken Rezervasyon <br> Festivali</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                </div>
+                <div class="mobile-slide mobile-slide-3">
+                    <div>
+                        <p class="mobile-slide-content">Erken Rezervasyon <br> Festivali</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                </div>
+                <div class="mobile-slide mobile-slide-4">
+                    <div>
+                        <p class="mobile-slide-content">Erken Rezervasyon <br> Festivali</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                </div>
+                <div class="mobile-slide mobile-slide-5">
+                    <div>
+                        <p class="mobile-slide-content">Erken Rezervasyon <br> Festivali</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                </div>
+                <div class="mobile-slide mobile-slide-6">
+                    <div>
+                        <p class="mobile-slide-content">Erken Rezervasyon <br> Festivali</p>
+                        <button>Fırsatları Gör</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-buttons">
+                <span class="mobile-carousel-dot"></span>
+                <span class="mobile-carousel-dot"></span>
+                <span class="mobile-carousel-dot"></span>
+                <span class="mobile-carousel-dot"></span>
+                <span class="mobile-carousel-dot"></span>
+                <span class="mobile-carousel-dot"></span>            
+            </div>
+        </div>
+        <!--MOBILE CAROUSEL END-->
+
+        <!--MOBILE MINI LOGIN START-->
+        <div class="mobile-mini-login">
+            <div class="login-img">
+                <img src="./mobile-assets/user.png" alt="login">
+            </div>
+            <div class="login-content">
+                <h1>Üyelere özel indirimli fiyatlar</h1>
+                <p>Giriş yaptığınızda daha düşük fiyatlar <br> görürsünüz!</p>
+                <button>Giriş Yapın</button>
+            </div>
+        </div>
+        <!--MOBILE MINI LOGIN END-->
+
+        <!--MOBILE HOTEL CARDS START-->
+        <div class="mobile-hotel-cards">
+            <h1>Yazın ilk fırsatlarını kaçırma!</h1>
+            <div class="last-hotels">
+                <span style="margin-left: 14px;">Son Gezdiğiniz Oteller</span>
+                <span style="margin-right:14px;"><img src="./mobile-assets/dropdown.png" alt=""></span>
+            </div>
+            <div class="mobile-cards">
+                <div>
+                    <div class="mobile-card mobile-card-1">
+                        <div class="mobile-card-img-1"></div>
+                        <div class="mobile-card-content mobile-card-content-1">
+                            <p>Vikingen İnfinity Resort <br> & Spa Hotel</p>
+                            <p>Ultra Her Şey Dahil</p>
+                            <div>
+                                <p style="opacity: 0.5; font-size: 12px;">Antalya, Alanya</p>
+                                <p><span>9/10</span> <span style="font-weight: bold;">ÇOK İYİ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mobile-card mobile-card-2">
+                        <div class="mobile-card-img-2"></div>
+                        <div class="mobile-card-content mobile-card-content-2">
+                            <p>Le Meridien Bodrum <br> Beach Resort</p>
+                            <p>Ultra Her Şey Dahil</p>
+                            <div>
+                                <p style="opacity: 0.5; font-size: 12px;">Antalya, Alanya</p>
+                                <p><span>9/10 &nbsp;</span> <span style="font-weight: bolder;">ÇOK İYİ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Daha fazla göster &#8594;</p>
+        </div>
+        <!--MOBILE HOTEL CARDS END-->
+
+        <!--MOBILE DOWNLOAD START-->
+        <div class="mobile-download">
+            <div class="mobile-download-content">
+                <p class="mobile-download-title">
+                    TatilBudur <br> uygulamasını <br> indirin, aklınızdaki <br> tatili hemen <br> planlayın!
+                </p>
+                <ul class="mobile-download-cards">
+                    <li><img src="./mobile-assets/apple.png" alt="appstore"></li>
+                    <li><img src="./mobile-assets/googleplay.png" alt="googleplay"></li>
+                    <li><img src="./mobile-assets/huawei.png" alt="huaweiapp"></li>
+                </ul>
+                <button>İndir</button>
+            </div>
+            <div style="overflow-y: hidden;" class="mobile-download-img">
+                <img src="./mobile-assets/app.png" alt="app">
+            </div>
+        </div>
+        <!--MOBILE DOWNLOAD END-->
+
+        <!--MOBILE TOURS START-->
+        <div class="mobile-tours">
+            <p class="mobile-tours-title">Turlar</p>
+            <ul>
+                <li>Yurt dışı Turları</li>
+                <li style="margin-left: 43px;">Gemi Turları</li>
+                <li style="margin-left: 43px;">Kültür Turları</li>
+            </ul>
+            <div class="mobile-tours-bottom">
+                <div>
+                    <p>
+                        200€’dan <br> başlayan <br> fiyatlarla
+                    </p>
+                    <p>Roma’yı Keşfetme <br> Mevsimi</p>
+                    <p>
+                        Haydi, siz de Tatilbudur’un uygun fiyatlı yurt dışı <br>
+                        turlarını incelemeye başlayın, yurt dışında daha <br> 
+                        fazla yeni yerler keşfetmenin keyfine varın!
+                    </p>
+                    <button>Fırsatları Gör</button>
+                </div>
+            </div>
+        </div>
+        <!--MOBILE TOURS END-->
+
+        <!--MOBILE SUGGESTIONS START-->
+        <div class="mobile-suggestions">
+            <p class="mobile-suggestions-title">Kararsız mı Kaldınız?</p>
+            <p>
+                Nasıl bir Tatil istediğinize karar <br> veremediyseniz size önerdiğimiz <br> 
+                tatil temalarını inceleyin!
+            </p>
+            <div class="mobile-suggestions-cards">
+                <div class="mobile-suggestions-card-1">
+                    <p>
+                        Kayak Otelleri <br> 
+                        <span style="font-size: 12px; font-weight: normal;">2243 Otel</span>
+                    </p>
+                </div>
+                <div class="mobile-suggestions-card-2">
+                    <p>
+                        Termal Oteller <br> 
+                        <span style="font-size: 12px; font-weight: normal;">2243 Otel</span>
+                    </p>
+                </div>
+            </div>
+            <p>Daha fazla göster →</p>
+        </div>
+        <!--MOBILE SUGGESTIONS END-->
+
+        <!--MOBILE EMAIL START-->
+        <div class="mobile-email">
+            <p>Üyelere özel indirimlere ve <br> harika fiyatlara erişim <br> sağlayın</p>
+            <input type="text" placeholder="begum@begum.com">
+            <div class="mobile-checkbox-part">
+                <input type="checkbox" name="mobile-mail-checkbox" id="mobile-mail-checkbox" checked="checked">
+                <label for="mobile-mail-checkbox">%50’ye varan Fırsat ve <br> &nbsp; &nbsp; Kampanyalardan haberdar olmak <br>&nbsp; &nbsp;  istiyorum</label>
+            </div>
+            <button>Gönder</button>
+        </div>
+        <!--MOBILE EMAIL END-->
+
+        <!--MOBILE SPONSORSHIP START-->
+        <div class="mobile-sponsors">
+            <div class="mobile-sponsor mobile-sponsor-1">
+                <div class="mobile-sponsor-img">
+                    <img src="./mobile-assets/mobilesponsor1.png" alt="basketballsponsorship">
+                </div>
+                <div class="mobile-sponsor-content-1">
+                    <p>#milligururbudur</p>
+                    <p>Tatilbudur.com <br> Basketbol Milli Takımlar <br> ANA SPONSORU</p>
+                </div>
+            </div>
+            <div class="mobile-sponsor mobile-sponsor-2">
+                <div class="mobile-sponsor-img">
+                    <img src="./mobile-assets/mobilesponsor2.png" alt="isbanksponsorship">
+                </div>
+                <div class="mobile-sponsor-content-2">
+                    <p>Tatilbudur.com bir</p>
+                    <p><img src="./mobile-assets/mobileisgirisim.png" alt="isgirisim"></p>
+                    <p>ortaklığıdır.</p>
+                </div>
+            </div>
+        </div>
+        <!--MOBILE SPONSORSHIP END-->
+
+        <!--MOBILE BOTTOM LINKS START-->
+        <div class="mobile-bottom-links">
+            <div class="mobile-logo-part">
+                <img src="./mobile-assets/mobilebottomlogo.png" alt="bottomlogo">
+                <p>
+                    <span style="color: #2A5AB3;">#daha</span>
+                    <span style="color: #709CEF;">fazla</span>
+                    <span style="color: #FF7F15;">tatil</span>
+                </p>
+            </div>
+            <p class="line"></p>
+            <div class="mobile-search-links">
+                <ul>
+                    <li><img style="margin-right: 16px;" src="./assets/hotel.png" alt="hotel"> Otel Ara</li>
+                    <li><img style="margin-right: 16px;" src="./assets/flight.png" alt="flight"> Uçuş Ara</li>
+                    <li><img style="margin-right: 16px;" src="./assets/tour.png" alt="tour"> Tur Ara</li>
+                    <li><img style="margin-right: 16px;" src="./assets/kampanyalar.png" alt="campaign"> Kampanyalar</li>
+                </ul>
+                <div><img src="./mobile-assets/mobileqrcode.png" alt="qrcode"></div>
+            </div>
+            <p class="line"></p>
+            <div class="mobile-reservation-links">
+                <p style="margin-bottom: 24px;">Rezervasyon</p>
+                <p style="margin-bottom: 24px; color:#6F7E8F;">Rezervasyon Kontrol</p>
+                <p style="margin-bottom: 24px; color:#6F7E8F;">Nasıl Rezervasyon Yapılır?</p>
+                <p style="color:#6F7E8F;">Grup Rezervasyon Talebi</p>
+            </div>
+            <p class="line"></p>
+            <div class="mobile-about">TatilBudur Hakkında</div>
+            <p class="line"></p>
+            <div class="mobile-kvkk">Sözleşmeler & KVKK</div>
+            <p class="line"></p>
+            <div>
+                Afişe edilen tüm fiyatlar, ilgili üründe kontenjan olması <br>
+                durumunda geçerli olup seçeceğiniz döneme göre <br> 
+                fiyatlar değişkenlik gösterebilir.
+            </div>
+            <div class="mobile-follow-links">
+                <p>Bizi Takip Edin</p>
+                <img src="./assets/sm.png" alt="socialmedia">
+                <div><img src="./assets/blog.png" alt="blogger"> &nbsp; &nbsp; blog.tatilbudur.com</div>
+            </div>
+            <div class="mobile-call-center">
+                <div class="mobile-call-center-content">
+                    <p>Çağrı Merkezi</p>
+                    <p>Bizi Arayın</p>
+                    <p>0 850 333 3 333</p>
+                    <p>VEYA</p>
+                    <p>Biz sizi arayalım</p>
+                </div>
+                <div class="mobile-call-center-img">
+                    <img src="./mobile-assets/mobilecallcentermodel.png" alt="callcenter">
+                </div>
+            </div>
+        </div>
+        <!--MOBILE BOTTOM LINKS END-->
+
+        <!--MOBILE FOOTER START-->
+        <div class="mobile-footer">
+            <div class="mobile-footer-cards">
+                <div>
+                    <p>Hissedarlarımız</p>
+                    <img src="./mobile-assets/mobileisgirisim.png" alt="isgirisim">
+                </div>
+                <p class="line"></p>
+                <div>
+                    <img src="./mobile-assets/mobillogolar-1.png" alt="bottomlogos">
+                    <img src="./mobile-assets/mobillogolar2.png" alt="bottomlogos">
+                </div>
+            </div>
+            <p>
+                Copyright © 1997-2021 TatilBudur.com. Tüm hakları saklıdır. <br> 
+                TatilBudur.com bir Tatilbudur Seyahat Acenteliği ve Turizm A.Ş <br> 
+                ürünüdür. ##122
+            </p>
+        </div>
+        <!--MOBILE FOOTER END-->
+        </div>
+        <!--MOBILE CONTENT END-->
+    </div>
+    <!--MOBILE VIEW END-->
+</body>
+</html>
